@@ -1,0 +1,235 @@
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+  color: white;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#hero {
+  background-image: url("/images/bandung-city1.jpg");
+  background-color: #cccccc;
+  background-size: cover;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  text-align: center;
+}
+
+#hero-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-style: normal;
+  margin: 0;
+  background-color: #457B9D;
+}
+
+#hero-subtitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 15px 0 0 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: 450px;
+  background-color: #1D3557;
+}
+
+.three-act{
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+#act {
+    text-align: center;
+  margin-top: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+  background-color: #A8DADC;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+}
+
+.act-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.act1, .act2, .act3 {
+  text-align: center;
+}
+
+.act-title {
+  height:75px;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.act-desc {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  height:100px;
+  font-style: normal;
+  width: 300px;
+  color: #1D3557;
+  margin-top:0;
+
+}
+
+.img-act {
+  width:150px;
+  height:150px;
+  border-radius: 50%;
+}
+
+.IDs{
+  text-align: center;
+  width: 500px;
+  height: 250px;
+  background-color: #457B9D;
+  margin: 150px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+  padding: 0 15px 5px;
+  border-bottom: 7px solid #A8DADC;
+}
+
+#img-id {
+  margin-left:0px;
+  width: 200px;
+  height: 200px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+#guide {
+  width: 250px;
+}
